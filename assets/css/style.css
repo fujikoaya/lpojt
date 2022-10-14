@@ -1,3 +1,11 @@
+body {
+  width: 100%;
+}
+body section {
+  height: 100vh;
+  width: 85%;
+  margin: 0 auto;
+}
 body h5 {
   text-align: center;
   font-size: 40px;
