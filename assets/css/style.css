@@ -5,42 +5,6 @@ body section {
   width: 1170px;
   margin: 0 auto;
 }
-body h5 {
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  margin: 30px 0;
-}
-body .svc {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0 250px;
-}
-body .svc .svc-a {
-  border: 1px solid #9067E9;
-  box-shadow: 15px 20px 0px 0 #9067E9;
-  margin-right: 20px;
-  padding-bottom: 20px;
-}
-body .svc .svc-a .svc-b {
-  height: 240px;
-  padding: 10px;
-}
-body .svc .svc-a .svc-b img {
-  width: 35%;
-  height: auto;
-  margin: 10px 10px 10px 20px;
-}
-body .svc .svc-a .svc-b .font {
-  font-size: 15px;
-  margin-bottom: 15px;
-  margin: 10px 10px 10px 20px;
-  font-family: "ABeeZee", sans-serif;
-}
-body .svc .svc-a .svc-b p {
-  font-size: 10px;
-  margin: 10px 10px 10px 20px;
-}
 
 .kv {
   position: relative;
@@ -189,7 +153,8 @@ body .svc .svc-a .svc-b p {
   flex-wrap: wrap;
 }
 
-.about_2, .about_3 {
+.about_2,
+.about_3 {
   display: flex;
   justify-content: space-between;
 }
@@ -221,4 +186,211 @@ body .svc .svc-a .svc-b p {
   width: 36.7%;
   margin-top: 40px;
   margin-bottom: 44px;
+}
+
+.section5 {
+  max-width: 1170px;
+  width: 79%;
+  margin: 0 auto;
+}
+
+h5 {
+  text-align: center;
+  font-size: 43px;
+  font-style: normal;
+  margin: 50px 0 50px 0;
+}
+
+.svc {
+  display: flex;
+}
+.svc .svc-a {
+  border: 1px solid #9067E9;
+  width: 42%;
+  box-shadow: 10px 15px 0px 0 #9067E9;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+.svc .svc-a .svc-b {
+  padding: 10px 10px 0 20px;
+}
+.svc .svc-a .svc-b img {
+  width: 32%;
+}
+.svc .svc-a .svc-b .font {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.svc .svc-a .svc-b p {
+  font-size: 16px;
+}
+
+.customer .section5 {
+  max-width: 1170px;
+  width: 79%;
+}
+.customer .cv-t {
+  display: flex;
+  justify-content: space-between;
+}
+.customer .cv-t img {
+  width: 40%;
+  box-shadow: -10px 10px 0px 0 #E7AFC3;
+}
+.customer .cv-t .cv-o {
+  padding-top: 150px;
+}
+.customer .cv-t .cv-o .liver {
+  font-size: 16px;
+}
+.customer .cv-t .cv-o .life {
+  font-size: 21px;
+}
+.customer .cv-t .cv-o .at {
+  font-size: 18px;
+}
+
+.cv-u .cv-a {
+  position: relative;
+}
+.cv-u .cv-a img {
+  position: absolute;
+  width: 8%;
+  top: -650px;
+  left: 0%;
+}
+.cv-u .cv-b {
+  position: relative;
+}
+.cv-u .cv-b img {
+  position: absolute;
+  width: 19%;
+  top: -650px;
+  left: 81%;
+}
+.cv-u .cv-c {
+  position: relative;
+}
+.cv-u .cv-c img {
+  position: absolute;
+  width: 17%;
+  top: -283px;
+}
+.cv-u .cv-d {
+  position: relative;
+}
+.cv-u .cv-d img {
+  position: absolute;
+  width: 11%;
+  top: -115px;
+  left: 1250px;
+}
+
+.ct-a .section5 {
+  max-width: 1170px;
+  width: 79%;
+}
+.ct-a .section5 .ct {
+  display: flex;
+  justify-content: space-between;
+}
+.ct-a .section5 .ct .ct-left {
+  width: 45%;
+}
+.ct-a .section5 .ct .ct-left .ct-sbt {
+  font-size: 25px;
+  background: linear-gradient(transparent 60%, yellow 30%);
+  width: 33%;
+}
+.ct-a .section5 .ct .ct-left .sample {
+  font-size: 16px;
+}
+.ct-a .section5 .ct .ct-left form dl dt {
+  font-size: 18px;
+}
+.ct-a .section5 .ct .ct-left form dl dd {
+  margin: 10px 0;
+}
+.ct-a .section5 .ct .ct-left form dl dd #name {
+  border: 1px solid black;
+  width: 80%;
+  padding: 5px 0;
+}
+.ct-a .section5 .ct .ct-left form dl dd #email {
+  border: 1px solid black;
+  width: 80%;
+  padding: 5px 0;
+}
+.ct-a .section5 .ct .ct-left form dl dd #tel {
+  border: 1px solid black;
+  width: 80%;
+  padding: 5px 0;
+}
+.ct-a .section5 .ct .ct-left form dl dd textarea {
+  border: 1px solid black;
+  width: 80%;
+  padding: 20%;
+}
+.ct-a .section5 .ct .ct-left form .button input {
+  text-align: center;
+  width: 80%;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+.ct-a .section5 .ct .line {
+  margin: 0 1rem;
+  width: 4px;
+  background-color: black;
+}
+.ct-a .section5 .ct .ct-right {
+  width: 45%;
+}
+.ct-a .section5 .ct .ct-right .ct-sbe {
+  font-size: 25px;
+  background: linear-gradient(transparent 60%, #20C55A 30%);
+  width: 28%;
+}
+.ct-a .section5 .ct .ct-right .sample {
+  font-size: 16px;
+}
+.ct-a .section5 .ct .ct-right .info {
+  display: flex;
+  align-items: center;
+  margin-top: 147px;
+}
+.ct-a .section5 .ct .ct-right .info .arrow {
+  width: 10%;
+}
+.ct-a .section5 .ct .ct-right .info .what {
+  width: 79%;
+}
+
+.lw-m .section5 {
+  max-width: 1170px;
+  width: 79%;
+}
+.lw-m .section5 .lw {
+  display: flex;
+  justify-content: space-between;
+}
+.lw-m .section5 .lw .lw-a .lw-sbt {
+  font-size: 63px;
+}
+.lw-m .section5 .lw .lw-a .p-font {
+  font-size: 21px;
+}
+.lw-m .section5 .lw .lw-a .ceo {
+  font-size: 18px;
+}
+.lw-m .section5 .lw .lw-b {
+  width: 49%;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  padding: 20px 0;
 }/*# sourceMappingURL=style.css.map */
