@@ -1,9 +1,8 @@
 body {
     width: 100%;
 
-    // text-align: center;
+
     section {
-        // height: 100vh;
         width: 1170px;
         margin: 0 auto;
     }
@@ -45,7 +44,6 @@ body {
 }
 
 .sub {
-    margin-top: 150px;
     width: 43.45%;
     position: relative;
     z-index: 1;
@@ -78,9 +76,8 @@ body {
 .main {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
-
-
 
 // Pet Livers
 .h5_petlivers {
@@ -165,81 +162,99 @@ body {
 }
 
 // About
-.about0 {
-    max-width: 100%;
+.about {
+    position: relative;
 }
 
-.about_1 {
+.aboutdeco {
+    position: absolute;
+}
+
+.about-deco1 {
+    width: 15.1%;
+}
+
+.about-deco2 {
+    width: 14.9%;
+    top: 35%;
+}
+
+.about-deco3 {
+    width: 11.4%;
+    top: 77%;
+    left: 4%;
+    z-index: 1;
+}
+
+.about-deco4 {
+    width: 12%;
+    right: 0%;
+    top: 4%;
+    transform: rotate(14deg);
+}
+
+.about-deco5 {
+    width: 17.5%;
+    top: 25%;
+    right: 0%;
+}
+
+.about-deco6 {
+    width: 5.8%;
+    top: 77%;
+    right: 5%;
+
+}
+
+.about_a,
+.about_b {
     display: flex;
-    flex-wrap: wrap;
+    width: 79%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 53px;
 }
 
-.about_2,
-.about_3 {
-    display: flex;
-    justify-content: space-between;
+h3 {
+    font-size: 34px;
 }
 
-.p_about {
-    width: 68%;
+.about_ap,
+.about_bp {
     font-size: 21px;
 }
 
-.about_img {
-    width: 43%;
+.about_aimg {
+    width: 31.6%;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        right: -8%;
+        width: 100%;
+        height: 104.3%;
+        background-color: #F9C83B;
+        z-index: -1;
+    }
 }
 
+.about_bimg {
+    width: 31.6%;
+    position: relative;
 
-
-.aboutimg2 {
-    box-shadow: -5px 5px #FFF835;
+    &::before {
+        content: "";
+        position: absolute;
+        left: -8%;
+        bottom: -5%;
+        width: 100%;
+        height: 100%;
+        background-color: #FFF835;
+        z-index: -1;
+    }
 }
-
-
-// h2 {
-//     font-size: 34px;
-// }
-
-// .about {
-//     font-size: 21px;
-// }
-
-// .about01 {
-//     display: flex;
-// }
-
-
-// .aboutimg-a {
-//     transform: scale(0.5);
-//     translate: 0 -100px;
-// }
-
-
-
-// .aboutimg_01 {
-//     position: relative;
-//     z-index: 0;
-//     width: 513px;
-//     height: 725px;
-
-//     &:after {
-//         content: "";
-//         position: absolute;
-//         width: 100%;
-//         height: 100%;
-//         background-color: #F9C83B;
-//         top: 0;
-//         right: -2.29%;
-//         z-index: -1;
-//     }
-// }
-
-// .about02 {
-//     width: 47.6%;
-// }
-
-
-
 
 // Sponser
 .sponser {
@@ -260,6 +275,36 @@ body {
     }
 }
 
+//レスポンシブ
+@media screen and (max-width: 767px) {
+    // kv
+    .ul-menu {
+        display: none;
+    }
+
+    .sub1 {
+        font-size: 4vw;
+    }
+    .maintitle {
+        font-size: 8.6vw;
+    }
+    .sub2 {
+        font-size: 3.7vw;
+    }
+
+    // pet livers
+    .p-2 {
+        font-size: 24px;
+    }
+
+    // About
+    .about_asub,.about_bsub {
+        font-size: 20px;
+    }
+    .about_ap.about_bp {
+        font-size: 18px;
+    }
+}
 
 // 藤井担当
 .section5 {
@@ -304,6 +349,7 @@ h5 {
         }
     }
 }
+
 // フェードイン
 .service {
     opacity: 0;
@@ -328,7 +374,7 @@ h5 {
     .cv-t {
         display: flex;
         justify-content: space-around;
-        
+
 
         img {
             width: 40%;
@@ -338,7 +384,7 @@ h5 {
         .cv-o {
             padding-top: 150px;
             width: 42%;
-            
+
             .liver {
                 font-size: 16px;
             }
@@ -349,7 +395,7 @@ h5 {
 
             .at {
                 font-size: 18px;
-                
+
             }
         }
 
@@ -416,12 +462,14 @@ h5 {
     visibility: visible;
     transform: translateY(0);
 }
-.cv-i{
+
+.cv-i {
     opacity: 0;
     visibility: hidden;
     transition: 3s;
     transform: translateY(25px);
 }
+
 .active {
     opacity: 1;
     visibility: visible;
@@ -559,12 +607,14 @@ h5 {
         }
     }
 }
-.ct-a{
+
+.ct-a {
     opacity: 0;
     visibility: hidden;
     transition: 4s;
     transform: translateY(60px);
 }
+
 .active {
     opacity: 1;
     visibility: visible;
@@ -603,7 +653,8 @@ h5 {
         }
     }
 }
-    // フェードイン
+
+// フェードイン
 .lw-m {
     opacity: 0;
     visibility: hidden;
@@ -623,4 +674,4 @@ footer {
     color: white;
     margin-top: 100px;
     padding: 20px 0;
-}    
+}

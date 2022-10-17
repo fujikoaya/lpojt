@@ -38,7 +38,6 @@ body section {
 }
 
 .sub {
-  margin-top: 150px;
   width: 43.45%;
   position: relative;
   z-index: 1;
@@ -71,6 +70,7 @@ body section {
 .main {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .h5_petlivers {
@@ -144,32 +144,95 @@ body section {
   border: solid 3px #FFB017;
 }
 
-.about0 {
-  max-width: 100%;
+.about {
+  position: relative;
 }
 
-.about_1 {
+.aboutdeco {
+  position: absolute;
+}
+
+.about-deco1 {
+  width: 15.1%;
+}
+
+.about-deco2 {
+  width: 14.9%;
+  top: 35%;
+}
+
+.about-deco3 {
+  width: 11.4%;
+  top: 77%;
+  left: 4%;
+  z-index: 1;
+}
+
+.about-deco4 {
+  width: 12%;
+  right: 0%;
+  top: 4%;
+  transform: rotate(14deg);
+}
+
+.about-deco5 {
+  width: 17.5%;
+  top: 25%;
+  right: 0%;
+}
+
+.about-deco6 {
+  width: 5.8%;
+  top: 77%;
+  right: 5%;
+}
+
+.about_a,
+.about_b {
   display: flex;
-  flex-wrap: wrap;
+  width: 79%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 53px;
 }
 
-.about_2,
-.about_3 {
-  display: flex;
-  justify-content: space-between;
+h3 {
+  font-size: 34px;
 }
 
-.p_about {
-  width: 68%;
+.about_ap,
+.about_bp {
   font-size: 21px;
 }
 
-.about_img {
-  width: 43%;
+.about_aimg {
+  width: 31.6%;
+  position: relative;
+}
+.about_aimg::before {
+  content: "";
+  position: absolute;
+  right: -8%;
+  width: 100%;
+  height: 104.3%;
+  background-color: #F9C83B;
+  z-index: -1;
 }
 
-.aboutimg2 {
-  box-shadow: -5px 5px #FFF835;
+.about_bimg {
+  width: 31.6%;
+  position: relative;
+}
+.about_bimg::before {
+  content: "";
+  position: absolute;
+  left: -8%;
+  bottom: -5%;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF835;
+  z-index: -1;
 }
 
 .sponser {
@@ -188,6 +251,29 @@ body section {
   margin-bottom: 44px;
 }
 
+@media screen and (max-width: 767px) {
+  .ul-menu {
+    display: none;
+  }
+  .sub1 {
+    font-size: 4vw;
+  }
+  .maintitle {
+    font-size: 8.6vw;
+  }
+  .sub2 {
+    font-size: 3.7vw;
+  }
+  .p-2 {
+    font-size: 24px;
+  }
+  .about_asub, .about_bsub {
+    font-size: 20px;
+  }
+  .about_ap.about_bp {
+    font-size: 18px;
+  }
+}
 .section5 {
   max-width: 1170px;
   width: 79%;
