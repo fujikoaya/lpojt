@@ -144,6 +144,19 @@ body section {
   border: solid 3px #FFB017;
 }
 
+.petlivers {
+  opacity: 0;
+  visibility: hidden;
+  transition: 3s;
+  transform: translateY(50px);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 .about {
   position: relative;
 }
@@ -235,6 +248,19 @@ h3 {
   z-index: -1;
 }
 
+.about {
+  opacity: 0;
+  visibility: hidden;
+  transition: 3s;
+  transform: translateY(50px);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 .sponser {
   display: flex;
   flex-direction: column;
@@ -249,6 +275,19 @@ h3 {
   width: 36.7%;
   margin-top: 40px;
   margin-bottom: 44px;
+}
+
+.sponser {
+  opacity: 0;
+  visibility: hidden;
+  transition: 3s;
+  transform: translateY(50px);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 @media screen and (max-width: 767px) {
