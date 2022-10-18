@@ -313,7 +313,7 @@ h5 {
 
     .cv-t {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
 
         img {
             width: 40%;
@@ -322,6 +322,7 @@ h5 {
 
         .cv-o {
             padding-top: 150px;
+            width: 42%;
 
             .liver {
                 font-size: 16px;
@@ -394,7 +395,7 @@ h5 {
 
         .ct {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
 
             .ct-left {
                 width: 45%;
@@ -525,7 +526,7 @@ h5 {
 
         .lw {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
 
             .lw-a {
                 .lw-sbt {

@@ -231,7 +231,7 @@ h5 {
 }
 .customer .cv-t {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .customer .cv-t img {
   width: 40%;
@@ -239,6 +239,7 @@ h5 {
 }
 .customer .cv-t .cv-o {
   padding-top: 150px;
+  width: 42%;
 }
 .customer .cv-t .cv-o .liver {
   font-size: 16px;
@@ -292,7 +293,7 @@ h5 {
 }
 .ct-a .section5 .ct {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .ct-a .section5 .ct .ct-left {
   width: 45%;
@@ -372,7 +373,7 @@ h5 {
 }
 .lw-m .section5 .lw {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .lw-m .section5 .lw .lw-a .lw-sbt {
   font-size: 63px;
