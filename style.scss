@@ -675,3 +675,141 @@ footer {
     margin-top: 100px;
     padding: 20px 0;
 }
+// ブレイクポイント
+@media screen and (max-width:767px){
+    body{
+        .section5{
+            width: 68.75%;
+            .svc{
+                display: block;
+                .svc-a{
+                    width: 75.32%;
+                    margin-bottom: 30px;
+                    margin-left: 50px;
+                    .svc-b{
+                        position: relative;
+                        .font{
+                            position: absolute;
+                            top: 15%;
+                            left: 43%;
+                        }
+                        p{
+                            padding: 6px;
+                        }
+                    }
+                }    
+            }
+            .cv-t{
+                display: block;
+                text-align: center;
+                
+                img{
+                    box-shadow: 10px 10px 0px 0 #E7AFC3;
+                    width: 75.32%;
+                    
+                }
+                .cv-o{
+                    background-image: url(../../img/bg_02.png);
+                    padding-top: 0;
+                    margin-top: 20px;
+                    width: 85.18%;
+                    text-align: left;
+                    padding: 10px 90px 20px 25px;
+                    margin-left: 45px;      
+                }
+            }
+        }
+        .cv-a{
+            display: none;
+        }
+        .cv-b{
+            display: none;
+        }
+        .cv-c{
+            display: none;
+        }
+        .cv-d{
+            display: none;
+        }
+        
+        .ct-a{
+            .section5{ 
+                // width: 68.75%;
+                .ct{
+                    display: block;
+                    .ct-left{
+                        width: 100%;
+                        text-align: center;
+                        .ct-sbt{
+                            font-size: 18px;
+                            margin-left: 200px;
+                        }
+                        form{
+                            dl{
+                                dt{
+                                    text-align: left;
+                                    margin-left: 60px;
+                                }
+                            }
+                        }
+                    }
+                    .line{
+                        border: 3px solid black;
+                        width: 100%;
+                        margin-top: 50px;
+                    }
+                    .ct-right{
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 30px;
+                        .ct-sbe{
+                            font-size: 18px;
+                            margin-left: 200px;
+                        }
+                        .info{
+                            display: flex;
+                            position: relative;
+                            .arrow{
+                                position: absolute;
+                                transform: rotate(90deg);
+                                text-align: center;
+                                margin-top: -200px;
+                                margin-left: 250px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .lw-m{
+            .section5{
+                .lw{
+                    display: block;
+                    .lw-a{
+                        margin-left: 60px;
+                        .lw-sbt{ 
+                            font-size: 8.6vw;
+                        }
+                        .p-font{
+                            font-size: 18px;
+                        }
+                        .ceo{
+                            font-size: 16px;
+                        }
+                    }
+                    .lw-b{
+                        margin-top: 100px;
+                        width: 100%;
+                        text-align: center;
+                        iframe{
+                            
+                            width: 81.72%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
