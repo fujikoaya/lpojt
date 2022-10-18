@@ -610,10 +610,6 @@ footer {
     font-size: 18px;
     margin-left: 200px;
   }
-  body .ct-a .section5 .ct .ct-left .sample {
-    text-align: left;
-    margin-left: 170px;
-  }
   body .ct-a .section5 .ct .ct-left form dl dt {
     text-align: left;
     margin-left: 60px;
@@ -631,10 +627,6 @@ footer {
   body .ct-a .section5 .ct .ct-right .ct-sbe {
     font-size: 18px;
     margin-left: 200px;
-  }
-  body .ct-a .section5 .ct .ct-right .sample {
-    text-align: left;
-    margin-left: 170px;
   }
   body .ct-a .section5 .ct .ct-right .info {
     display: flex;
