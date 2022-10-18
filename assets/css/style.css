@@ -2,7 +2,8 @@ body {
   width: 100%;
 }
 body section {
-  width: 1170px;
+  max-width: 1170px;
+  width: 79%;
   margin: 0 auto;
 }
 
@@ -290,6 +291,65 @@ h3 {
   transform: translateY(0);
 }
 
+@media screen and (max-width: 767px) {
+  h5 {
+    font-size: 30px;
+  }
+  .sub {
+    background-image: url(/img/kv_sp.png);
+  }
+  .ul-menu {
+    display: none;
+  }
+  .sub1 {
+    font-size: 4vw;
+  }
+  .maintitle {
+    font-size: 8.6vw;
+  }
+  .sub2 {
+    font-size: 3.7vw;
+  }
+  .deco, .left, .right {
+    display: none;
+  }
+  .main {
+    display: block;
+  }
+  .p-2 {
+    font-size: 24px;
+  }
+  .pet {
+    display: block;
+  }
+  .livers {
+    width: 68.8%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about_asub, .about_bsub {
+    font-size: 20px;
+    background-image: url(../img/bg_01.png);
+  }
+  .about_ap.about_bp {
+    font-size: 18px;
+  }
+  .aboutdeco {
+    display: none;
+  }
+  .about_a {
+    flex-direction: column-reverse;
+  }
+  .about_b {
+    flex-direction: column;
+  }
+  .about_aimg, .about_bimg {
+    width: 51.8%;
+  }
+  .about-sub {
+    background-image: url(/img/bg_01.png);
+  }
+}
 .section5 {
   max-width: 1170px;
   width: 79%;

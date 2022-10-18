@@ -3,7 +3,8 @@ body {
 
 
     section {
-        width: 1170px;
+        max-width: 1170px;
+        width: 79%;
         margin: 0 auto;
     }
 }
@@ -344,7 +345,48 @@ h3 {
     .main {
         display: block;
     }
+     // pet livers
+     .p-2 {
+        font-size: 24px;
+    }
+    .pet {
+        display: block;
+    }
+    .livers {
+        width: 68.8%;
+        margin: 0 auto;
+        text-align: center;
+    }
+  
 
+    
+
+    // About
+    .about_asub,.about_bsub {
+        font-size: 20px;
+        background-image: url(../img/bg_01.png);
+    }
+    .about_ap.about_bp {
+        font-size: 18px;
+    
+    }
+    .aboutdeco {
+        display: none;
+    }
+    .about_a {
+        flex-direction: column-reverse;
+    }
+    .about_b {
+        flex-direction: column;
+    }
+    .about_aimg,.about_bimg {
+        width: 51.8%;
+    }
+    .about-sub {
+        background-image:url(/img/bg_01.png);
+    }
+    
+}
 // 藤井担当
 .section5 {
     max-width: 1170px;
