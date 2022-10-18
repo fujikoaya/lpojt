@@ -297,6 +297,7 @@ h3 {
   }
   .sub {
     background-image: url(/img/kv_sp.png);
+    text-align: center;
   }
   .ul-menu {
     display: none;
@@ -459,7 +460,7 @@ h5 {
   position: absolute;
   width: 11%;
   top: -115px;
-  left: 1250px;
+  right: 0;
 }
 
 .customer {
