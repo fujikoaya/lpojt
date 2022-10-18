@@ -275,6 +275,7 @@ h5 {
     margin: 50px 0 50px 0;
 }
 
+// service
 .svc {
     display: flex;
 
@@ -303,9 +304,22 @@ h5 {
         }
     }
 }
+// フェードイン
+.service {
+    opacity: 0;
+    visibility: hidden;
+    transition: 3s;
+    transform: translateY(50px);
+}
 
+.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+// customer
 .customer {
-
     .section5 {
         max-width: 1170px;
         width: 79%;
@@ -314,6 +328,7 @@ h5 {
     .cv-t {
         display: flex;
         justify-content: space-around;
+        
 
         img {
             width: 40%;
@@ -323,7 +338,7 @@ h5 {
         .cv-o {
             padding-top: 150px;
             width: 42%;
-
+            
             .liver {
                 font-size: 16px;
             }
@@ -334,13 +349,14 @@ h5 {
 
             .at {
                 font-size: 18px;
+                
             }
         }
 
     }
 }
 
-.cv-u {
+.customer {
     .cv-a {
         position: relative;
 
@@ -386,8 +402,21 @@ h5 {
         }
     }
 }
+// フェードイン
+.customer {
+    opacity: 0;
+    visibility: hidden;
+    transition: 3s;
+    transform: translateY(50px);
+}
 
-// contact
+.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+// contact   
 .ct-a {
     .section5 {
         max-width: 1170px;
@@ -517,6 +546,18 @@ h5 {
         }
     }
 }
+.ct-a{
+    opacity: 0;
+    visibility: hidden;
+    transition: 4s;
+    transform: translateY(60px);
+}
+.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-10px);
+}
+
 
 // company
 .lw-m {
@@ -549,11 +590,17 @@ h5 {
         }
     }
 }
-
-footer {
-    text-align: center;
-    background-color: black;
-    color: white;
-    margin-top: 100px;
-    padding: 20px 0;
+// フェードイン
+.lw-m {
+    opacity: 0;
+    visibility: hidden;
+    transition: 3s;
+    transform: translateY(50px);
 }
+
+.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-5px);
+}
+
