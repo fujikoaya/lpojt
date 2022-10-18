@@ -356,7 +356,7 @@ h5 {
     }
 }
 
-.customer {
+.cv-i {
     .cv-a {
         position: relative;
 
@@ -402,6 +402,7 @@ h5 {
         }
     }
 }
+
 // フェードイン
 .customer {
     opacity: 0;
@@ -415,6 +416,18 @@ h5 {
     visibility: visible;
     transform: translateY(0);
 }
+.cv-i{
+    opacity: 0;
+    visibility: hidden;
+    transition: 3s;
+    transform: translateY(25px);
+}
+.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
 
 // contact   
 .ct-a {
@@ -590,17 +603,24 @@ h5 {
         }
     }
 }
-// フェードイン
+    // フェードイン
 .lw-m {
     opacity: 0;
     visibility: hidden;
-    transition: 3s;
-    transform: translateY(50px);
+    transition: 4s;
+    transform: translateY(60px);
 }
 
 .active {
     opacity: 1;
     visibility: visible;
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding: 20px 0;
+}    

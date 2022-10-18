@@ -225,6 +225,19 @@ h5 {
   font-size: 16px;
 }
 
+.service {
+  opacity: 0;
+  visibility: hidden;
+  transition: 3s;
+  transform: translateY(50px);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 .customer .section5 {
   max-width: 1170px;
   width: 79%;
@@ -251,40 +264,66 @@ h5 {
   font-size: 18px;
 }
 
-.cv-u .cv-a {
+.cv-i .cv-a {
   position: relative;
 }
-.cv-u .cv-a img {
+.cv-i .cv-a img {
   position: absolute;
   width: 8%;
   top: -650px;
   left: 0%;
 }
-.cv-u .cv-b {
+.cv-i .cv-b {
   position: relative;
 }
-.cv-u .cv-b img {
+.cv-i .cv-b img {
   position: absolute;
   width: 19%;
   top: -650px;
   left: 81%;
 }
-.cv-u .cv-c {
+.cv-i .cv-c {
   position: relative;
 }
-.cv-u .cv-c img {
+.cv-i .cv-c img {
   position: absolute;
   width: 17%;
   top: -283px;
 }
-.cv-u .cv-d {
+.cv-i .cv-d {
   position: relative;
 }
-.cv-u .cv-d img {
+.cv-i .cv-d img {
   position: absolute;
   width: 11%;
   top: -115px;
   left: 1250px;
+}
+
+.customer {
+  opacity: 0;
+  visibility: hidden;
+  transition: 3s;
+  transform: translateY(50px);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.cv-i {
+  opacity: 0;
+  visibility: hidden;
+  transition: 3s;
+  transform: translateY(25px);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .ct-a .section5 {
@@ -367,6 +406,19 @@ h5 {
   width: 79%;
 }
 
+.ct-a {
+  opacity: 0;
+  visibility: hidden;
+  transition: 4s;
+  transform: translateY(60px);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-10px);
+}
+
 .lw-m .section5 {
   max-width: 1170px;
   width: 79%;
@@ -386,6 +438,19 @@ h5 {
 }
 .lw-m .section5 .lw .lw-b {
   width: 49%;
+}
+
+.lw-m {
+  opacity: 0;
+  visibility: hidden;
+  transition: 4s;
+  transform: translateY(60px);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-10px);
 }
 
 footer {
