@@ -422,6 +422,7 @@ h5 {
 }
 .ct-a .section5 .ct .ct-left {
   width: 45%;
+  margin-left: 30px;
 }
 .ct-a .section5 .ct .ct-left .ct-sbt {
   font-size: 25px;
@@ -524,6 +525,7 @@ h5 {
 }
 .lw-m .section5 .lw .lw-b {
   width: 49%;
+  margin-left: 30px;
 }
 
 .lw-m {
