@@ -317,7 +317,14 @@ h3 {
 
 //レスポンシブ
 @media screen and (max-width: 767px) {
+    h5 {
+        font-size: 30px;
+    }
     // kv
+    .sub {
+        background-image: url(/img/kv_sp.png);
+    }
+
     .ul-menu {
         display: none;
     }
@@ -331,20 +338,12 @@ h3 {
     .sub2 {
         font-size: 3.7vw;
     }
-
-    // pet livers
-    .p-2 {
-        font-size: 24px;
+    .deco, .left, .right {
+        display: none;
     }
-
-    // About
-    .about_asub,.about_bsub {
-        font-size: 20px;
+    .main {
+        display: block;
     }
-    .about_ap.about_bp {
-        font-size: 18px;
-    }
-}
 
 // 藤井担当
 .section5 {

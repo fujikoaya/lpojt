@@ -290,29 +290,6 @@ h3 {
   transform: translateY(0);
 }
 
-@media screen and (max-width: 767px) {
-  .ul-menu {
-    display: none;
-  }
-  .sub1 {
-    font-size: 4vw;
-  }
-  .maintitle {
-    font-size: 8.6vw;
-  }
-  .sub2 {
-    font-size: 3.7vw;
-  }
-  .p-2 {
-    font-size: 24px;
-  }
-  .about_asub, .about_bsub {
-    font-size: 20px;
-  }
-  .about_ap.about_bp {
-    font-size: 18px;
-  }
-}
 .section5 {
   max-width: 1170px;
   width: 79%;
